@@ -1,0 +1,88 @@
+body {
+	background-image: url(background.jpg);
+	font: 12pt "Courier";
+}
+
+.nav {
+	
+}
+
+.nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+
+.nav ul li {
+	margin: 0px -7px 0 0;
+	display: inline-block;
+}
+
+.nav a {
+	display: block;
+	padding: 0 10px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+.nav ul li:hover > ul {
+	display: inherit;
+}
+
+.nav ul ul li {
+	min-width: 170px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+.main {
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.side {
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+
+.cont {
+	margin-top: 50%;
+}
+
+.m-cont {
+	margin-top: 10%;
+}
+
+.footer {
+	float: right;
+}
+
+@media only print {
+	.side {
+	display: none;
+	}
+
+	.main {
+		height: 100%;
+		width: 100%;
+		float: left;
+	}
+	
+	.footer {
+		display: none;
+	}
+	
+	.nav {
+		display: none;
+	}
+}
