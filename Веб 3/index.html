@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css\bootstrap.css">
+	<link rel="stylesheet" href="css\main.css">
+    <title>Terraria</title>
+  </head>
+  <body>
+	<div class="container">
+		<nav class="navbar navbar-dark navbar-expand-md bg-dark sticky-top">
+			<div class="container-fluid">
+				<a href="#" class="nav-brand"><img src="terraria_logo.png" height=60 width=80</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<li class="nav-item dropdown active">
+								<button id="btn-tooltip" class="btn btn-dark" title="Menu">
+									<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Menu</a>
+										<ul class="dropdown-menu">
+											<li><a href="Main.html">About Terraria</a></li>
+											<li><a href="Math.html">Math</a></li>
+											<li><a href="SVG.html">Easter egg</a></li>
+										</ul>
+								</button>
+							</li>
+						</li>
+						<li class="nav-item active">
+						  <button id="button" class="btn btn-dark"><a class="nav-link" href="Versions.html">Versions</a></button>
+						</li>
+						<li class="nav-item active">
+						  <button id="button" class="btn btn-dark"><a class="nav-link" href="https://store.steampowered.com/app/105600/Terraria/">In Steam</a></button>
+						</li>
+						<li class="nav-item active">
+							<button id="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+								<a class="nav-link" href="#">Final update</a>
+							</button>
+						</li>
+						<li class="nav-item active">
+						</li>
+					</ul>
+				</div>	
+			</div>	
+		</nav>				
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Jorney's end</h5>
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						Недавно вышло последние обновление, которое заканчивает развитие Terraria.
+						Разработчики постоянно поддерживали ее в течении 9 лет.
+						Спасибо им за такую долгую поддержку...
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div id="slider" class="carousel slide" data-ride="carousel">
+	<center><h1>Галерея</h1></center>
+	<p>
+      <ol class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+		<li data-target="#slider" data-slide-to="3"></li>
+		<li data-target="#slider" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+			<a href="Versions.html">
+				<img src="images/1.0.jpg" alt="" class="d-block w-100">
+				<div class="carousel-caption">
+					1.0
+				</div>
+			</a>
+        </div>
+        <div class="carousel-item">
+          <a href="Versions.html">
+            <img src="images/1.1.jpg" alt="" class="d-block w-100">
+            <div class="carousel-caption">
+              1.1
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="Versions.html">
+            <img src="images/1.2.jpg" alt="" class="d-block w-100">
+            <div class="carousel-caption">
+              1.2
+            </div>
+          </a>
+        </div>
+		<div class="carousel-item">
+          <a href="Versions.html">
+            <img src="images/1.3.jpg" alt="" class="d-block w-100">
+            <div class="carousel-caption">
+              1.3
+            </div>
+          </a>
+        </div>
+		<div class="carousel-item">
+          <a href="Versions.html">
+            <img src="images/1.4.jpg" alt="" class="d-block w-100">
+            <div class="carousel-caption">
+              1.4
+            </div>
+          </a>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Prev</span>
+      </a>
+      <a href="#slider" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" area-hidden="true"></span>
+        <span class="sr-only">Next</span> 
+      </a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="http://fred-wang.github.io/mathjax.js/mpadded-min.js"></script>
+  </body>
+</html>

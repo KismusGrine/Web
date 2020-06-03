@@ -1,0 +1,37 @@
+body {
+	background-image: url(background.png);
+	color: #f8f9fa;
+}
+
+li {
+	background-color: #343a40;
+}
+
+li a {
+	color: #f8f9fa;
+}
+
+.dropdown-menu {
+	background-color: #343a40;
+}
+
+.carousel-caption {
+	color: #f8f9fa;
+}
+
+.image {
+	padding: 10%;
+}
+
+.table {
+	padding: 10%;
+	color: #f8f9fa;
+}
+
+.modal-header {
+	color: #343a40;
+}
+
+.modal-body {
+	color: #343a40;
+}
